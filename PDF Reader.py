@@ -1,6 +1,6 @@
 import pyttsx3
 import PyPDF2
-book = open('IELTS.pdf', 'rb')
+book = open('podcast.pdf', 'rb')
 pdfReared = PyPDF2.PdfFileReader(book)
 pages = pdfReared.numPages
 print(pages)
